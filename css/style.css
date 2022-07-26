@@ -175,6 +175,36 @@ footer p {
     color: #DBBABA;
 }
 
+#CS2text button {
+    background-color: transparent;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #36454F;
+    padding-top: 15px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+#CS2text button:hover {
+    background-color: #36454F;
+    color: #DBBABA;
+}
+
+#CS3text button {
+    background-color: transparent;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #36454F;
+    padding-top: 15px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+#CS3text button:hover {
+    background-color: #36454F;
+    color: #DBBABA;
+}
+
 footer {
     background-image: url(../Images/Background.png);
     background-position: left 0% top 65%;

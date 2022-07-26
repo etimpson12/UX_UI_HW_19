@@ -1,7 +1,10 @@
 console.log("Your index.js file is loaded corrently!");
 
-$("#Contact").click(function () {
-    $('html, body').animate({
-        scrollTop: $("footer").offset().top
-    }, 2000);
-    });
+$(function (){
+    $("#Contact").on ('click', function () {
+        var position = $("footer").offset().top;
+        $('html, body').animate({
+            scrollTop: position
+        }, 2000);
+     });
+});

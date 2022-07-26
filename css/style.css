@@ -1,0 +1,168 @@
+header {
+    height: 75px;
+    background-color: white;
+    box-shadow: 0px 2px #c5c5c5;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+
+img[src="Images/Logo.png"] {
+    height: 60px;
+    width: auto;
+}
+
+nav {
+    width: 90%;
+    padding: 1%;
+}
+
+ul {
+    text-align: right;
+    padding-right: 0px;
+}
+
+li {
+    margin: 13px;
+}
+
+.mySkills {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "CS1img CS1img CS1text"
+    "CS2text CS2img CS2img"
+    "CS3img CS3img CS3text";
+}
+
+#CS1text {
+    grid-area: CS1text;
+    background-color: #DBBABA;
+    height: 40%;
+    text-align: center;
+    margin-top: 115px;
+    margin-left: -100px;
+}
+#CS1img {
+    grid-area: CS1img;
+}
+#CS2text {
+    grid-area: CS2text;
+    background-color: #DBBABA;
+    height: 40%;
+    text-align: center;
+    margin-top: 165px;
+    margin-right: -100px;
+}
+#CS2img {
+    grid-area: CS2img;
+    padding-top: 50px;
+}
+#CS3text {
+    grid-area: CS3text;
+    background-color: #DBBABA;
+    height: 40%;
+    text-align: center;
+    margin-top: 215px;
+    margin-left: -100px;
+}
+#CS3img {
+    grid-area: CS3img;
+    padding-top: 50px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.aboutMe {
+    background-color: #FAF6F3;
+    margin-top: 50px;
+}
+
+#imageBlock {
+    display: inline-block;
+    width: 35%;
+    padding-right: 25px;
+    margin-left: 16%;
+    margin-top: 50px;
+}
+
+#textBlock {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #DBBABA;
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #36454F;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: #36454F;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 225px;
+    padding-top: 70px;
+}
+
+p {
+    color: #36454F;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#textBlock p {
+    padding-left: 25px;
+    padding-right: 45px;
+}
+
+footer p {
+    padding-left: 225px;
+    width: 50%;
+}
+
+button {
+    background-color: transparent;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #36454F;
+    padding-top: 15px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #36454F;
+    color: #DBBABA;
+}
+
+footer {
+    background-image: url(../Images/Background.png);
+    background-position: left 0% top 65%;
+    display: block;
+    height: 350px;
+}

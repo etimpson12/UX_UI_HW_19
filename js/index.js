@@ -6,4 +6,4 @@ $(function (){
             scrollTop: $("footer").offset().top
         }, 2000);
      });
-})
+});

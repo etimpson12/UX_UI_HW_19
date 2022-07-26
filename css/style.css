@@ -33,6 +33,10 @@ li {
     margin: 13px;
 }
 
+li button {
+    background-color: transparent;
+}
+
 .mySkills {
     margin-left: 10%;
     margin-right: 10%;
@@ -155,7 +159,7 @@ footer p {
     transition-duration: 0.4s;
 }
 
-button:hover {
+#CS1text button:hover {
     background-color: #36454F;
     color: #DBBABA;
 }

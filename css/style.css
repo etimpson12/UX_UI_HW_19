@@ -31,11 +31,17 @@ ul {
 
 li {
     margin: 13px;
+    color: #36454F;
+    font-size: 12px;
+    font-family: sans-serif;
 }
 
 li button {
     background-color: transparent;
-    border-color: none;
+    border-color: 0px;
+    color: #36454F;
+    font-size: 12px;
+    font-family: sans-serif;
 }
 
 .mySkills {

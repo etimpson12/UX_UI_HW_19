@@ -7,3 +7,11 @@ $(function (){
         }, 2000);
     });
 })
+
+$(function (){
+    $("#contentButton").on('click', function() {
+        $('html, body').animate({
+            scrollTop: $(".myskills").offset().top
+        }, 2000);
+    });
+})

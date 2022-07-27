@@ -132,7 +132,6 @@ img {
     display: inline-block;
     width: 45%;
     vertical-align: top;
-    margin-top: 50px;
 }
 
 h1 {
@@ -162,8 +161,7 @@ p {
 }
 
 #textBlock p {
-    padding-left: 25px;
-    padding-right: 45px;
+    padding-left: 60px;
 }
 
 footer p {

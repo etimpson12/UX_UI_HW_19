@@ -44,6 +44,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 li button {
     background-color: transparent;
     border: none;

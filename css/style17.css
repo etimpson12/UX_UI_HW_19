@@ -41,6 +41,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .herosection {
     height: 500px;
     padding: 25px;
